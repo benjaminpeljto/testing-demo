@@ -5,19 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af1a6e65-2b7f-441a-b567-a81bf111532a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/week2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/week2/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/week4/NumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/week4/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/week5/EmailManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/week5/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/ibu/edu/week5/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week10/DefaultSuiteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week10/LabSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week10/MaximizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week2/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week2/DBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week2/smth.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week4/NumberCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week4/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week4/converters/PointConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week5/UserManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week6/SeleniumIntroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week7/Lab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ba/ibu/edu/week7/LabMaterials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/smth.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2n9evtwrp7xwud6Q600UlUqPQ8I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,13 +63,173 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CalculatorTest.testSubtraction.executor": "Run",
+    "JUnit.DBTest.executor": "Run",
+    "JUnit.DefaultSuiteTest.executor": "Run",
+    "JUnit.Lab.testDeanName.executor": "Run",
+    "JUnit.Lab.testSignupForm.executor": "Run",
+    "JUnit.LabDemo.executor": "Run",
+    "JUnit.LabMaterials.executor": "Run",
+    "JUnit.LabMaterials.testDeanName.executor": "Run",
+    "JUnit.LabMaterials.testSignupForm.executor": "Run",
+    "JUnit.LabSession.executor": "Run",
+    "JUnit.LabSession.testChangeSelectOption.executor": "Run",
+    "JUnit.MaximizedTest.executor": "Run",
+    "JUnit.NumberCheckerTest.testIsEven.executor": "Run",
+    "JUnit.NumberCheckerTest.testSquare.executor": "Run",
+    "JUnit.PointTest.testDistance.executor": "Run",
+    "JUnit.PointTest.testDistanceArgConverter.executor": "Run",
+    "JUnit.SeleniumIntroTest.executor": "Run",
+    "JUnit.Unnamed.executor": "Run",
+    "JUnit.UserManagerTest.executor": "Run",
+    "JUnit.UserManagerTest.testCheckToken_WithValidToken_ShouldReturnTrue.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Benjamin Peljto/oop-2024-25/testing-demo/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin Peljto\oop-2024-25\testing-demo\src\test\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin Peljto\oop-2024-25\testing-demo\src\test\java\ba\ibu\edu\week10" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ba.ibu.edu.week2" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.ibu.edu.week5" />
+      <recent name="ba.ibu.edu.week4" />
+      <recent name="ba.ibu.edu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CalculatorTest.testSubtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.ibu.edu.week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.ibu.edu.week2" />
+      <option name="MAIN_CLASS_NAME" value="ba.ibu.edu.week2.CalculatorTest" />
+      <option name="METHOD_NAME" value="testSubtraction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabMaterials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.ibu.edu.week7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.ibu.edu.week7" />
+      <option name="MAIN_CLASS_NAME" value="ba.ibu.edu.week7.LabMaterials" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabSession.testChangeSelectOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.ibu.edu.week10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.ibu.edu.week10" />
+      <option name="MAIN_CLASS_NAME" value="ba.ibu.edu.week10.LabSession" />
+      <option name="METHOD_NAME" value="testChangeSelectOption" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab.testDeanName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.ibu.edu.week7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.ibu.edu.week7" />
+      <option name="MAIN_CLASS_NAME" value="ba.ibu.edu.week7.Lab" />
+      <option name="METHOD_NAME" value="testDeanName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab.testSignupForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.ibu.edu.week7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.ibu.edu.week7" />
+      <option name="MAIN_CLASS_NAME" value="ba.ibu.edu.week7.Lab" />
+      <option name="METHOD_NAME" value="testSignupForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <option name="PACKAGE_NAME" value="ba.ibu.edu.week10" />
+      <option name="MAIN_CLASS_NAME" value="ba.ibu.edu.week10.DefaultSuiteTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.CalculatorTest.testSubtraction" />
+      <item itemvalue="JUnit.LabSession.testChangeSelectOption" />
+      <item itemvalue="JUnit.LabMaterials" />
+      <item itemvalue="JUnit.Lab.testDeanName" />
+      <item itemvalue="JUnit.Lab.testSignupForm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest.testSubtraction" />
+        <item itemvalue="JUnit.LabSession.testChangeSelectOption" />
+        <item itemvalue="JUnit.LabMaterials" />
+        <item itemvalue="JUnit.Lab.testSignupForm" />
+        <item itemvalue="JUnit.Lab.testDeanName" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,11 +246,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728389953076</updated>
-      <workItem from="1728389954081" duration="44000" />
+      <workItem from="1728389954081" duration="6463000" />
+      <workItem from="1728417243727" duration="1387000" />
+      <workItem from="1728419958098" duration="655000" />
+      <workItem from="1728543106105" duration="1911000" />
+      <workItem from="1728558085301" duration="2133000" />
+      <workItem from="1729149089288" duration="831000" />
+      <workItem from="1729696350855" duration="5264000" />
+      <workItem from="1729756619355" duration="15000" />
+      <workItem from="1729767735741" duration="2747000" />
+      <workItem from="1729776603539" duration="489000" />
+      <workItem from="1729777360489" duration="647000" />
+      <workItem from="1729845052035" duration="1439000" />
+      <workItem from="1729848043177" duration="1136000" />
+      <workItem from="1730207290892" duration="206000" />
+      <workItem from="1730207524570" duration="196000" />
+      <workItem from="1730230023555" duration="3427000" />
+      <workItem from="1730362030867" duration="3638000" />
+      <workItem from="1730965456211" duration="3638000" />
+      <workItem from="1730980768570" duration="2420000" />
+      <workItem from="1731527100285" duration="7594000" />
+      <workItem from="1731585586466" duration="3002000" />
+      <workItem from="1731675479531" duration="804000" />
+      <workItem from="1732566542740" duration="3899000" />
+      <workItem from="1732629060000" duration="5000" />
+      <workItem from="1732646797741" duration="311000" />
+      <workItem from="1732796683106" duration="700000" />
+      <workItem from="1733156560412" duration="247000" />
+      <workItem from="1733384052384" duration="3365000" />
+      <workItem from="1733400420390" duration="2264000" />
+      <workItem from="1733751171221" duration="692000" />
+      <workItem from="1733988293577" duration="5499000" />
+      <workItem from="1734280446599" duration="17000" />
+      <workItem from="1734513894782" duration="694000" />
+      <workItem from="1734569674336" duration="3160000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testing_demo$UserManagerTest.ic" NAME="UserManagerTest Coverage Results" MODIFIED="1730378072094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ba.ibu.edu.week5.*</FILTER>
+    </SUITE>
   </component>
 </project>

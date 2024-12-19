@@ -1,4 +1,4 @@
-package ba.ibu.edu;
+package ba.ibu.edu.week2;
 
 public class Calculator {
 

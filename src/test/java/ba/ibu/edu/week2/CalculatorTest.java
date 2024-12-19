@@ -1,4 +1,4 @@
-package ba.ibu.edu;
+package ba.ibu.edu.week2;
 
 import org.junit.jupiter.api.*;
 
@@ -6,10 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CalculatorTest {
 
     @Test
-    public void testAddition() {
+    public void testSubtraction() {
         Calculator calculator = new Calculator();
         int result = calculator.subtract(10, 5);
-        assertEquals(5, result, "10 - 5 should equal 5");
+        assertEquals(7, result, "10 - 5 should equal 5");
+
     }
 
     @Test
